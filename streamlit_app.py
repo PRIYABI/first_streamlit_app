@@ -51,8 +51,6 @@ except URLError as e:
 #output it to the screen as a table
 #streamlit.dataframe(fruityvice_normalized)
 ############### END of : all the code below is added to the try catch block for error handling######################
-#don't run anything past this while we troubleshoot
-streamlit.stop()
 
 #import snowflake.connector
 
